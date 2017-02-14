@@ -19,89 +19,88 @@ sortcuts  cheat
 - `^B %` -> split window horiz                                                                                                                                                                              
 - `^B { or }` -> swap panes                                                                                                                                                                                 
 - `^B q [1,2,3,..]` -> select pane by number                                                                                                                                                                
-- `^B [Up, Down, Left, Right]` -> switch panes                                                                                                                                                              
+- `^B [Up, Down, Left, Right]` -> switch panes     
+
+- `^B z` expand/shrink current pane
+
                                                                                                                                                                                                             
 # vim
 
-:w filename: save to                                                                                                                                                                                        
+`:w` filename: save to                                                                                                                                                                                        
+                                                                                                                                                                                                
+`u` : undo                                                                                                                                                                                                    
+`Ctrl-R`: redo                                                                                                                                                                                                
                                                                                                                                                                                                             
-u : undo                                                                                                                                                                                                    
-Ctrl-R: redo                                                                                                                                                                                                
+`i`: Enter insert mode at cursor                                                                                                                                                                              
+`I`:  Enter i at first non-blank car                                                                                                                                                                          
+`s`: Delete char under cursor and i                                                                                                                                                                           
+`S`: Delete line and begin i at same line                                                                                                                                                                                                             
+`a`: Enter i after cursor                                                                                                                                                                                     
+`A`: Enter i at end of line                                                                                                                                                                                   
                                                                                                                                                                                                             
-i: Enter insert mode at cursor                                                                                                                                                                              
-I:  Enter i at first non-blank car                                                                                                                                                                          
-s: Delete char under cursor and i                                                                                                                                                                           
-S: Delete line and begin i at same line                                                                                                                                                                     
+`o`: Enter i on next line                                                                                                                                                                                     
+`O`: Enter i on above line                                                                                                                                                                                    
                                                                                                                                                                                                             
+`C`: Delete from cursor to the end of line and i                                                                                                                                                              
                                                                                                                                                                                                             
-a: Enter i after cursor                                                                                                                                                                                     
-A: Enter i at end of line                                                                                                                                                                                   
+`w`: Forward to next word(after comma, semicolon, etc)                                                                                                                                                        
+`W`: Forward to next WORD(after white space)                                                                                                                                                                  
                                                                                                                                                                                                             
-o: Enter i on next line                                                                                                                                                                                     
-O: Enter i on above line                                                                                                                                                                                    
+`b`: Backward to prev word                                                                                                                                                                                    
+`B`: Backward to prev WORD                                                                                                                                                                                    
                                                                                                                                                                                                             
-C: Delete from cursor to the end of line and i                                                                                                                                                              
+`e`: Forward to next end of word                                                                                                                                                                              
+`E`: Forward to next end of WORD                                                                                                                                                                              
+`0`: Move to the zeroth char of line(begining of line)                                                                                                                                                        
+`$`: move to last char of a line                                                                                                                                                                              
+`^`: move to first non blank char of a line                                                                                                                                                                   
                                                                                                                                                                                                             
-w: Forward to next word(after comma, semicolon, etc)                                                                                                                                                        
-W: Forward to next WORD(after white space)                                                                                                                                                                  
+`V`: highlight the whole line                                                                                                                                                                                 
                                                                                                                                                                                                             
-b: Backward to prev word                                                                                                                                                                                    
-B: Backward to prev WORD                                                                                                                                                                                    
+`gg`: Top of the file                                                                                                                                                                                         
+`gg + v + shift g`: Select all text in file                                                                                                                                                                   
+`SHIFT + G`: End of file                                                                                                                                                                                      
+`Ctrl+e` : scroll down                                                                                                                                                                                        
+`Ctrl+y` : scroll up                                                                                                                                                                                          
+`Ctrl+f` : scroll page down at a time                                                                                                                                                                         
+`Ctrl+b` : scroll page up at a time                                                                                                                                                                           
+`H` : move cursor to top of the window                                                                                                                                                                        
+`M` : move cursor to middle of the window                                                                                                                                                                     
+`L` : move cursor to bottom of the window                                                                                                                                                                     
                                                                                                                                                                                                             
-e: Forward to next end of word                                                                                                                                                                              E: Forward to next end of WORD                                                                                                                                                                              
-0: Move to the zeroth char of line(begining of line)                                                                                                                                                        
-$: move to last char of a line                                                                                                                                                                              
-^: move to first non blank char of a line                                                                                                                                                                   
-                                                                                                                                                                                                            
-V: highlight the whole line                                                                                                                                                                                 
-                                                                                                                                                                                                            
-gg: Top of the file                                                                                                                                                                                         
-gg + v + shift g: Select all text in file                                                                                                                                                                   
-SHIFT + G: End of file                                                                                                                                                                                      
-Ctrl+e : scroll down                                                                                                                                                                                        
-Ctrl+y : scroll up                                                                                                                                                                                          
-Ctrl+f : scroll page down at a time                                                                                                                                                                         
-Ctrl+b : scroll page up at a time                                                                                                                                                                           
-H : move cursor to top of the window                                                                                                                                                                        
-M : move cursor to middle of the window                                                                                                                                                                     
-L : move cursor to bottom of the window                                                                                                                                                                     
-                                                                                                                                                                                                            
-[n]f<o>: find a char -> for example "f + (" goes to next "("                                                                                                                                                
+`[n]f<o>`: find a char -> for example "f + (" goes to next "("                                                                                                                                                
                       -> f + ) goes to next ")"                                                                                                                                                             
                       -> 3 + f + ) goes to thirs ")" in line                                                                                                                                                
                                                                                                                                                                                                             
 SEARCHING:                                                                                                                                                                                                  
-/ : Forward search                                                                                                                                                                                          
-? : Backward search 
+`/` : Forward search                                                                                                                                                                                          
+`?` : Backward search 
 
-n : next result                                                                                                                                                                                             
-shift + n: next result                                                                                                                                                                                      
-* : Search for the word under cursor - Forward(bounded -> whole word)                                                                                                                                       
-# : Search for the word under cursor - Backward(bounded)                                                                                                                                                    
-g*: Search for the word under cursor - Forward(unbounded)                                                                                                                                                   
-g#: Search for the word under cursor - Backward(bounded)                                                                                                                                                    
-n, N: next, prev on those                                                                                                                                                                                   
+`n` : next result                                                                                                                                                                                             
+`shift + n`: next result                                                                                                                                                                                      
+`*` : Search for the word under cursor - Forward(bounded -> whole word)                                                                                                                                       
+`#` : Search for the word under cursor - Backward(bounded)                                                                                                                                                    
+`g*`: Search for the word under cursor - Forward(unbounded)                                                                                                                                                   
+`g#`: Search for the word under cursor - Backward(bounded)                                                                                                                                                    
+`n, N`: next, prev on those                                                                                                                                                                                   
                                                                                                                                                                                                             
 COPY/PASTE:                                                                                                                                                                                                 
-y - Yank. Example: yw (yank word)                                                                                                                                                                           
-yy - Yank the whole line.                                                                                                                                                                                   
-dd - cut current line                                                                                                                                                                                       
-D - cut to the end of the line (doesnt enter i mode)                                                                                                                                                        
-C  - change to the end of the line (enters i more)                                                                                                                                                          
-p - paste after cursor                                                                                                                                                                                      
-P - paste befor ecursor                                                                                                                                                                                     
-v - Visual Selection                                                                                                                                                                                        
-                                                                                                                                                                                                            
-                                                                                                                                                                                                            
-kdfj gslkdfjg ;slkdjf g;lksjdf ;lgkjs                                                                                                                                                                       
-                                                                                                                                                                                                            
-dd(di()                                                                                                                                                                                                     
-da[                                                                                                                                                                                                         
-di[                                                                                                                                                                                                         
-diw : delete in word - deletes word !                                                                                                                                                                       
-cw: change word(starting from cursor) (enters insert mode)                                                                                                                                                  
-caw: change a word (enters i mode)                                                                                                                                                                          
-yi                                                                                                                                                                                                          
+`y` - Yank. Example: yw (yank word)                                                                                                                                                                           
+`yy` - Yank the whole line.                                                                                                                                                                                   
+`dd` - cut current line                                                                                                                                                                                       
+`D` - cut to the end of the line (doesnt enter i mode)                                                                                                                                                        
+`C`  - change to the end of the line (enters i more)                                                                                                                                                          
+`p` - paste after cursor                                                                                                                                                                                      
+`P` - paste befor ecursor                                                                                                                                                                                     
+`v` - Visual Selection                                                                                                                                                                                        
+                                                                                                                           
+`dd(di() `                                                                                                                                                                                                    
+`da[`                                                                                                                                                                                                         
+`di[ `                                                                                                                                                                                                        
+`diw` : delete in word - deletes word !                                                                                                                                                                       
+`cw`: change word(starting from cursor) (enters insert mode)                                                                                                                                                  
+`caw`: change a word (enters i mode)                                                                                                                                                                          
+`yi`                                                                                                                                                                                                          
 Enter visual mode: v, just move cursor to highlight text                                                                                                                                                    
                                                                                                                                                                                                             
 GOOOOVIM:                                                                                                                                                                                                   
