@@ -17,3 +17,4 @@ sortcuts  cheat
 - `^B { or }` -> swap panes
 - `^B q [1,2,3,..]` -> select pane by number
 - `^B [Up, Down, Left, Right]` -> switch panes
+- `^B z` expand/shrink current pane
