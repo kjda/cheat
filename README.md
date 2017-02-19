@@ -103,31 +103,30 @@ COPY/PASTE:
 `yi`                                                                                                                                                                                                          
 Enter visual mode: v, just move cursor to highlight text                                                                                                                                                    
                                                                                                                                                                                                             
-GOOOOVIM:                                                                                                                                                                                                   
-`\t` : run tests                                                                                                                                                                                              
-`dif` : delete inner function contents                                                                                                                                                                        
-`vif` : selects all func contents                                                                                                                                                                             
-`yif` : copy if                                                                                                                                                                                               
-`daf` : delete a function                                                                                                                                                                                     
-`vaf` : v a function                                                                                                                                                                                          
-`gS` : split a struct expression & make it multiline                                                                                                                                                          
-`gJ` : unsplit a struct expression                                                                                                                                                                            
-`gd` or `Ctrl+]` : Go to definition                                                                                                                                                                             
-`Ctrl+o` or `Ctrl+t`: Go back                                                                                                                                                                                   
-`GoDecls` : list all declarations in a file(searchable)                                                                                                                                                       
-`GoDeclsDir` : list all decls in a dir (searchable)                                                                                                                                                           
-`]]` : jump to next func                                                                                                                                                                                      
-`[[` : jump to prev func                                                                                                                                                                                      
-`v]]` & then `]]`                                                                                                                                                                                               
-or `v[[`                                                                                                                                                                                                      
-`\i` : shows func signature                                                                                                                                                                                   
+GOOOOVIM:  
+`\t` : run tests                                                          
+`dif` : delete inner function contents 
+`vif` : selects all func contents  
+`yif` : copy if  
+`daf` : delete a function  
+`vaf` : v a function  
+`gS` : split a struct expression & make it multiline  
+`gJ` : unsplit a struct expression  
+`gd` or `Ctrl+]` : Go to definition  
+`Ctrl+o` or `Ctrl+t`: Go back  
+`GoDecls` : list all declarations in a file(searchable)  
+`GoDeclsDir` : list all decls in a dir (searchable)  
+`]]` : jump to next func  
+`[[` : jump to prev func  
+`v]]` & then `]]`  
+or `v[[`  
+`\i` : shows func signature  
 `\d` : go to def                                                                                                                                                                                              
                                                                                                                                                                                                             
                                                                                                                                                                                                             
                                                                                                                                                                                                             
-NERDTREE:                                                                                                                                                                                                   
-`u` -> goes up to parent dir                                                                                                                                                                                  
-`C` -> goes down a dir       
-
+NERDTREE:  
+`u` -> goes up to parent dir  
+`C` -> goes down a dir  
 `:Bookmark` -> Bookmark a dir
                                                                                    
