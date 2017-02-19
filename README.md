@@ -104,8 +104,8 @@ COPY/PASTE:
 Enter visual mode: v, just move cursor to highlight text                                                                                                                                                    
                                                                                                                                                                                                             
 GOOOOVIM:  
-`\t` : run tests                                                          
-`dif` : delete inner function contents 
+`\t` : run tests  
+`dif` : delete inner function contents  
 `vif` : selects all func contents  
 `yif` : copy if  
 `daf` : delete a function  
