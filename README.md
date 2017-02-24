@@ -82,8 +82,15 @@ SEARCHING:
 `#` : Search for the word under cursor - Backward(bounded)                                                                                                                                                    
 `g*`: Search for the word under cursor - Forward(unbounded)                                                                                                                                                   
 `g#`: Search for the word under cursor - Backward(bounded)                                                                                                                                                    
-`n, N`: next, prev on those                                                                                                                                                                                   
-                                                                                                                                                                                                            
+`n, N`: next, prev on those                                                                                                   
+
+global search
+`:vimgrep /query/ ./src/**/*.elm`  
+`:cn` next
+`:cp` prev 
+`:copen` & `:cclose` open and close list of all search results
+
+
 COPY/PASTE:                                                                                                                                                                                                 
 `y` - Yank. Example: yw (yank word)                                                                                                                                                                           
 `yy` - Yank the whole line.                                                                                                                                                                                   
