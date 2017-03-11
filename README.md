@@ -93,7 +93,8 @@ global search
 
 COPY/PASTE:                                                                                                                                                                                                 
 `y` - Yank. Example: yw (yank word)                                                                                                                                                                           
-`yy` - Yank the whole line.                                                                                                                                                                                   
+`yy` - Yank the whole line.   
+`yw` - Yank a word  
 `dd` - cut current line, [1|2|...]`dd` cut multiple lines                                                                                                                                                                                  
 `D` - cut to the end of the line (doesnt enter i mode)                                                                                                                                                        
 `C`  - change to the end of the line (enters i more)                                                                                                                                                          
